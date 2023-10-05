@@ -1,13 +1,16 @@
 Package: aboutMe
 Type: Package
-Title: What the Package Does (Title Case)
+Title: This Package Tells You all about Yourself! 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Jacob Schmidt
+Maintainer: Jacob Schmidt <jschmidt@ucsb.edu>
+Description: This package can tell you the current year and your name. 
 License: Apache License (>= 2)
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/99jsch/aboutMe
 BugReports: https://github.com/99jsch/aboutMe/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.3
